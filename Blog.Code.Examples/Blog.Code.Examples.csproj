@@ -2,7 +2,12 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AsyncBuilderWithParallelTasks\AsyncBuilderWithParallelTasks.csproj" />
+    <ProjectReference Include="..\AsyncBuilderWithOrderedFuncOfTasks\AsyncBuilderWithOrderedFuncOfTasks.csproj" />
+    <ProjectReference Include="..\AsyncBuilderWithCancellableTasks\AsyncBuilderWithCancellableTasks.csproj" />
+  </ItemGroup>
 </Project>

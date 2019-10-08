@@ -1,4 +1,4 @@
-﻿namespace BuilderWithMandatoryCalls
+﻿namespace Shared.BuilderPatternPosts.Models
 {
   public class Contact
   {

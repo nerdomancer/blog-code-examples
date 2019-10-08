@@ -1,4 +1,6 @@
-﻿namespace BuilderWithMandatoryCalls
+﻿using Shared.BuilderPatternPosts.Models;
+
+namespace BuilderWithMandatoryCalls
 {
   public class ContactBuilder : IContactBuilder, IContactWithMandatoryNameBuilder, IContactWithMandatorySurnameBuilder, IContactWithMandatoryPhoneBuilder
   {
